@@ -2,11 +2,6 @@ package com.draw.Commands;
 
 import com.draw.Board;
 
-/**
- * To be honest I didn't understood the description at first,
- * but found something about Flood-fill algorithm on Internet, I tried to implemented it here
- * Created by Kmilov on 23/03/15.
- */
 public class Bucket implements Command {
     private Board board;
     private int x1, y1;
